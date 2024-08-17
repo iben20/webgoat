@@ -30,12 +30,12 @@ jobs:
           #coverity_passphrase: ${{ secrets.COVERITY_PASSPHRASE }}
 
           #------------------------------------------BLACKDUCK----------------------------------------
-          blackduck_token: OTgzYWRjY2QtNjI3Ni00YTlmLWE4NGItNGE2NGJhN2U5N2E3OmFkNDAyMjg0LTg4NWMtNDY5Zi1hOWYzLTM1ZjUzMTRjYjU0NQ==
-          blackduck_url: https://expressonboarding.app.blackduck.com
+          blackduck_token: ${{ secrets.BLACKDUCK_TOKEN }}
+          blackduck_url: ${{ secrets.BLACKDUCK_URL }}
 
           #------------------------------------------POLARIS------------------------------------------
-          #polaris_server_url: ${{ secrets.POLARIS_SERVER_URL }}
-          #polaris_access_token: ${{ secrets.POLARIS_ACCESS_TOKEN }}
-          #polaris_assessment_types: "SCA,SAST"
+          polaris_server_url: ${{ secrets.POLARIS_SERVER_URL }}
+          polaris_access_token: ${{ secrets.POLARIS_ACCESS_TOKEN }}
+          polaris_assessment_types: "SCA,SAST"
 
 
