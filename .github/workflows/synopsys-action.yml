@@ -34,8 +34,8 @@ jobs:
           blackduck_url: ${{ secrets.BLACKDUCK_URL }}
 
           #------------------------------------------POLARIS------------------------------------------
-          polaris_server_url: ${{ secrets.POLARIS_URL }}
-          polaris_access_token: ${{ secrets.POLARIS_TOKEN }}
-          polaris_assessment_types: "SCA,SAST"
+          #polaris_server_url: ${{ secrets.POLARIS_URL }}
+          #polaris_access_token: ${{ secrets.POLARIS_TOKEN }}
+          #polaris_assessment_types: "SCA,SAST"
 
 
